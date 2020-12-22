@@ -16,7 +16,7 @@ gcloud functions call UpdateSheetHandler --data '[{"email":"test@test.com","tel"
 
 ## How to use it
 * Prepare a spreadsheet
-* Create a neew service account
+* Create a new service account
 * Grant service account permissions to edit the spreadsheet
 * Run ```Deploy command``` (replace SOME_SERVICE_ACCOUNT_EMAIL - your service account email, SPREADSHEET_ID - your spreadsheet id, RANGE_END_LETTER - the last column what you want to use, RANGE_MAX_NUMBER - thee last row to fetch)
 * After cloud function will be deployed - you will receive some URL which will handle POST request with new data which will be added if not exists
